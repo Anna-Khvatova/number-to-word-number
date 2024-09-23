@@ -1,0 +1,17 @@
+{
+  "name": "number-to-word-number",
+  "version": "0.0.1",
+  "description": "Простой модуль преобразования числа в слова",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Anna-Khvatova",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
