@@ -6,6 +6,10 @@
   "scripts": {
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anna-Khvatova/number-to-word-number.git"
+  },
   "author": "Anna-Khvatova",
   "license": "MIT",
   "devDependencies": {
