@@ -33,18 +33,19 @@ yarn add number-to-word-number
 # Использование
 
 ```js
-const numberToWordNumber = require('number-to-word-number');
-const wordNumber = numberToWordNumber(123456); // сто двадцать три тысячи четыреста пятьдесят шесть
+import { numberToWordNumber } from 'number-to-word-number';
+...
+const wordNumber = numberToWordNumber.convert(123456); // сто двадцать три тысячи четыреста пятьдесят шесть
 ```
 
 # API
 
-- numberToWordNumber(num)
+- convert(num)
 ---
 
-### Метод `numberToWordNumber`
+### Метод `convert`
 
-`numberToWordNumber(num)` - Конвертировать число в текстовое представление
+`convert(num)` - Конвертировать число в текстовое представление
 
 #### **Аргументы метода**
 

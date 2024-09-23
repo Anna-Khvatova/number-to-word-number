@@ -5,7 +5,7 @@ const HUNDREDS_WORDS = ['', 'сто', 'двести', 'триста', 'четы�
 
 const NUMBER_REGEX = /^(\d{3})(\d{3})(\d{3})$/;
 
-export function numberToWordNumber(num: Number): String {
+export function convert(num: Number): String {
   const numStr = num.toString();
   const [, millions, thousands, units] = ('000000000' + numStr).slice(-9).match(NUMBER_REGEX);
   
