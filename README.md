@@ -14,7 +14,7 @@
  Только положительные числа до миллиарда
 
  # Демонстрация
-(https://codepen.io/Anna-Khvatova/pen/bGXGZrN)
+https://codepen.io/Anna-Khvatova/pen/bGXGZrN
 
  # Установка 
 
