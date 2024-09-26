@@ -1,6 +1,6 @@
 {
   "name": "number-to-word-number",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Простой модуль преобразования числа в слова",
   "main": "dist/bundle.js",
   "scripts": {

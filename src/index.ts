@@ -24,6 +24,6 @@ function getWordNumber(numStr: String, gender: String) {
 
 function pluralize(num: number, one: String, other: String, many: String): String {
   if (num % 10 === 1 && !num.toString().endsWith('11')) return one;
-  if ([2, 3, 4].includes(num % 10) && ![12, 13, 14].includes(num)) return other;
+  if ([2, 3, 4].includes(num % 10) && ![12, 13, 14].includes(num % 100)) return other;
   return many;
 }
